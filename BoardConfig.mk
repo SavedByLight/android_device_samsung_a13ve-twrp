@@ -18,6 +18,7 @@
 DEVICE_PATH := device/samsung/a13ve
 
 # For building with minimal manifest
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 ALLOW_MISSING_DEPENDENCIES := true
 
 # Bootloader
